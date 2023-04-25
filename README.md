@@ -1,6 +1,6 @@
 <h1 align="center">Now Spotyfing</h1>
 
-> **Now Spotyfing** is a Conky widget which shows a Monstercat style Now Playing when music is played via Spotify or cmus, or a clock when no music is playing.
+**Now Spotyfing** is a Conky widget which shows a Now Playing when music is played via Spotify.
 
 <div align="center" style="display:inline">
 <img alt="Screenshot of spotify" src="res/now-clocking-spotify.jpg" width="416px" />
@@ -60,5 +60,5 @@ To make aligning everything easier.
 
 ## Credits
 
-Huge props to the original creators, [@gamehelp16](https://github.com/gamehelp16) and [@https://github.com/Rayzr522](https://github.com/Rayzr522). I forked this script and I want to add "Like" button to it (but probably it can't be done with conky).
+Huge props to the original creators, [@gamehelp16](https://github.com/gamehelp16) and [@Rayzr522](https://github.com/Rayzr522). I forked this script and I want to add "Like" button to it (but probably it can't be done with conky).
 
