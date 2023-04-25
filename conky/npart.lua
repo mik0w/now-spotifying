@@ -5,11 +5,11 @@ conky.config = {
 
     -- Positioning
     alignment = 'bottom_left',
-    gap_x = 50,
-    gap_y = 125,
-    minimum_width = 125,
-    maximum_width = 125,
-    minimum_height = 125,
+    gap_x = 250,
+    gap_y = 0,
+    minimum_width = 50,
+    maximum_width = 50,
+    minimum_height = 50,
 
     -- Draw settings
     double_buffer = true,
@@ -21,13 +21,13 @@ conky.config = {
     own_window_argb_visual = true,
     own_window_argb_value = 0,
     own_window_transparent = true,
-    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window_hints = 'below',
     own_window_type = 'dock'
 };
 
 conky.text = [[
 ${if_running spotify}${exec ./scripts/fetch-art spotify}
-	${image ./data/spotify.png -p 0,0 -s 125x125 -n}
+	${image ./data/spotify.png -p 0,0 -s 50x50 -n}
 ${else}${if_match "" != "${exec playerctl -p vlc status}"}${exec ./scripts/fetch-art vlc}
 	${image ./data/vlc.png -p 0,0 -s 125x125 -n}
 ${else}${if_match "" != "${exec playerctl -p Lollypop status}"}${exec ./scripts/fetch-art Lollypop}
